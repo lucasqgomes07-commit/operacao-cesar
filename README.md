@@ -2,7 +2,7 @@
 
 Serious game de tabuleiro sobre **criptografia**, feito para a disciplina **Resolução Discreta de Problemas** (CESUPA, Ciência da Computação, Prof. Pedro Girotto).
 
-**Equipe:** Lucas Gomes · Pedro Passos · Nattan Brasil
+**Equipe:** Lucas Gomes · Pedro Passos · Natan Brasil
 
 ## O jogo
 
