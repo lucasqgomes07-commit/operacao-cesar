@@ -72,7 +72,7 @@ EVENT_CARDS = [
     ("Blecaute", "Até o fim da rodada ninguém pode fazer abordagens."),
     ("Vazamento de chave", "O jogador à sua esquerda diz se a chave dele é par ou ímpar."),
     ("Agente duplo", "Troque um envelope que você carrega por um envelope de um rival (sem olhar)."),
-    ("Ventania no porto", "Todos os agentes nas casas da beira do rio voltam 2 casas."),
+    ("Ventania no porto", "Todos os agentes que estão em casas de Rua voltam 2 casas."),
     ("Novo Protocolo", "A partir de agora, o Protocolo Substituição está liberado para todos."),
     ("Correio expresso", "Avance direto até o QG mais próximo da sua agência no sentido do movimento."),
     ("Operação pente-fino", "Todos que carregam 2 ou mais envelopes devolvem 1 à Embaixada mais próxima (descartado)."),

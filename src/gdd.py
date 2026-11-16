@@ -60,7 +60,7 @@ s += [Spacer(1, 4.5 * cm), P("OPERAÇÃO CÉSAR", title), Spacer(1, 8),
              ["Curso", "Ciência da Computação"],
              ["Disciplina", "Resolução Discreta de Problemas"],
              ["Professor", "Pedro Girotto"],
-             ["Equipe", "Lucas Gomes<br/>Pedro Passos<br/>Nattan Brasil"],
+             ["Equipe", "Lucas Gomes<br/>Pedro Passos<br/>Natan Brasil"],
              ["Tipo de implementação", "Lúdica (jogo de tabuleiro físico)"]],
             [5 * cm, 10 * cm], header=False),
       PageBreak()]
@@ -252,6 +252,6 @@ s += [KeepTogether([P("Definições gerais", h1),
 
 doc = SimpleDocTemplate(OUT, pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm,
                         topMargin=2 * cm, bottomMargin=2 * cm,
-                        title="GDD — Operação César", author="Lucas Gomes, Pedro Passos, Nattan Brasil")
+                        title="GDD — Operação César", author="Lucas Gomes, Pedro Passos, Natan Brasil")
 doc.build(s, onFirstPage=lambda c, d: None, onLaterPages=footer)
 print("ok")

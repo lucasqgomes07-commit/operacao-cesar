@@ -41,10 +41,10 @@ def footer_for(name):
     return f
 def build(path, story, name, ttl):
     doc = SimpleDocTemplate(path, pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm, topMargin=2 * cm, bottomMargin=2 * cm,
-                            title=ttl, author="Lucas Gomes, Pedro Passos, Nattan Brasil")
+                            title=ttl, author="Lucas Gomes, Pedro Passos, Natan Brasil")
     doc.build(story, onFirstPage=footer_for(name), onLaterPages=footer_for(name))
 
-TEAM = "Lucas Gomes · Pedro Passos · Nattan Brasil"
+TEAM = "Lucas Gomes · Pedro Passos · Natan Brasil"
 
 # =============================================================== REGRAS
 s = [Spacer(1, 3 * cm), P("OPERAÇÃO CÉSAR", title), Spacer(1, 6), P("Manual de Regras", sub), Spacer(1, 0.8 * cm),
@@ -110,7 +110,7 @@ s += [P("7. Os locais da cidade", h1),
       table([["Local", "Ação"],
              ["Embaixada", "Compre 1 Carta de Missão (se tiver menos de 3 envelopes). Cifre a palavra com a sua chave atual e escreva o "
               "texto cifrado num envelope, marcando a sua agência e o nº do envelope (1, 2 ou 3). Coloque a Carta de Missão virada "
-              "para baixo no espaço de mesmo número da sua Ficha e anote no verso dela a chave usada."],
+              "para baixo no espaço de mesmo número da sua Ficha e anote nela o nº do envelope e a chave usada."],
              ["QG da sua agência", "Entregue quantos envelopes quiser. Para cada um, decifre em voz alta: se acertar a palavra da Carta de "
               "Missão, ganhe <b>3 PI</b> (<b>4 PI</b> se foi cifrado por Substituição). Se errar, a mensagem chegou corrompida: <b>1 PI</b>. "
               "Descarte a Missão. O QG é seguro: ninguém pode fazer abordagem dentro dele."],
@@ -190,7 +190,7 @@ t = [P("Sessão de Teste e Feedback", title), Spacer(1, 6), P("Operação César
      table([["Tempo", "Etapa", "Responsável"],
             ["5 min", "Boas-vindas e pré-teste (folha individual, abaixo)", "Lucas"],
             ["5 min", "Explicação rápida: Cifra de César com a Roda + resumo do turno", "Pedro"],
-            ["30 min", "Partida em mesas de 3 ou 4 jogadores; um integrante observa cada mesa e anota", "Nattan / Pedro"],
+            ["30 min", "Partida em mesas de 3 ou 4 jogadores; um integrante observa cada mesa e anota", "Natan / Pedro"],
             ["5 min", "Pós-teste (mesmos exercícios, valores diferentes)", "Lucas"],
             ["5 min", "Formulário de feedback + conversa aberta", "Equipe"]], [2.2 * cm, 10.3 * cm, 3.5 * cm]),
      P("Registrar: fotos das mesas (com autorização), duração real da partida, placar final, dúvidas que apareceram e regras que foram mal interpretadas.", box),

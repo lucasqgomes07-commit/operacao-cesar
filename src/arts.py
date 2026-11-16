@@ -219,7 +219,7 @@ def cards_file():
         c.setFillColor(HexColor(NAVY)); c.setFont("Courier-Bold", 22 if len(w) < 7 else 19)
         c.drawCentredString(x + CW / 2, y + CH / 2 + 2 * mm, w)
         wrap(c, "Cifre esta palavra com a sua chave atual e escreva o texto cifrado num envelope. "
-                "Guarde esta carta virada para baixo, anotando no verso o nº do envelope e a chave usada.",
+                "Guarde esta carta virada para baixo e anote nela o nº do envelope e a chave usada.",
              x + 6 * mm, y + 26 * mm, CW - 12 * mm, size=6.5, center=True)
         c.setFont("Helvetica", 7); c.drawCentredString(x + CW / 2, y + 7 * mm, f"{len(w)} letras  ·  Envelope nº ____  ·  k = ____")
     deck(c, MISSIONS, "#F2C94C", "MISSÃO", mission)
